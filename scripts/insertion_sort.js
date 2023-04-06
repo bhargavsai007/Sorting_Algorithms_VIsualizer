@@ -7,6 +7,8 @@ function Insertion() {
     // Setting Space complexity
     document.getElementById("Space_Worst").innerText = "O(1)";
 
+    c_delay=0;
+
     // Calculating delay so far
     for (var i = 0; i < array_size; i++) {
         div_update(divs[i], div_sizes[i], "yellow");//Color update
